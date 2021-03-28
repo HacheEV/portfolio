@@ -10,3 +10,8 @@ a {
   color: black;
   font-size: 10px;
 }
+@media only screen and (max-width: 450px) {
+  footer {
+    width: 90%;
+  }
+}

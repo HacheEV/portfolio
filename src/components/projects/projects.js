@@ -7,13 +7,9 @@ import meal from '../../images/meal.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faReact,
-  faNode,
-  faPhp,
   faGithub,
   faHtml5,
   faCss3,
-  faJava,
-  faJsSquare,
 } from '@fortawesome/free-brands-svg-icons';
 
 const Projects = () => {
@@ -31,12 +27,16 @@ const Projects = () => {
             trend!
           </p>
           <p>Using simple components in React but login with Google Auth!</p>
-          <button>
-            <a href="https://hachev-news.netlify.app/">Check it out!</a>
-          </button>
-          <button>
-            <a href="https://github.com/HacheEV/portfolio-news-react">Github</a>
-          </button>
+          <div className="checks">
+            <button>
+              <a href="https://hachev-news.netlify.app/">Check it out!</a>
+            </button>
+            <button>
+              <a href="https://github.com/HacheEV/portfolio-news-react">
+                Github
+              </a>
+            </button>
+          </div>
         </div>
 
         <div className="tools">
@@ -61,12 +61,14 @@ const Projects = () => {
             top four currency and the most popular cryptos at the moment!
           </p>
           <p>Using React hooks, custom hooks and styled components!</p>
-          <button>
-            <a href="https://hachev-crypto.netlify.app/">Check it out!</a>
-          </button>
-          <button>
-            <a href="https://github.com/HacheEV/portfolio-crypto">Github</a>
-          </button>
+          <div className="checks">
+            <button>
+              <a href="https://hachev-crypto.netlify.app/">Check it out!</a>
+            </button>
+            <button>
+              <a href="https://github.com/HacheEV/portfolio-crypto">Github</a>
+            </button>
+          </div>
         </div>
 
         <div className="tools">
@@ -94,14 +96,16 @@ const Projects = () => {
             A React app, using the previous items and adding useContext and a
             Modal from a library!
           </p>
-          <button>
-            <a href="https://hachev-meal-app.netlify.app/">Check it out!</a>
-          </button>
-          <button>
-            <a href="https://github.com/HacheEV/portfolio-meal-context">
-              Github
-            </a>
-          </button>
+          <div className="checks">
+            <button>
+              <a href="https://hachev-meal-app.netlify.app/">Check it out!</a>
+            </button>
+            <button>
+              <a href="https://github.com/HacheEV/portfolio-meal-context">
+                Github
+              </a>
+            </button>
+          </div>
         </div>
 
         <div className="tools">
