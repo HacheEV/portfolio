@@ -19,7 +19,7 @@ const Profile = () => {
       <div className="info">
         <img src={image} alt="profile"></img>
         <div className="personal-data">
-          <h1>Hi! Welcome to my personal site!</h1>
+          <h1>Welcome to my personal site!</h1>
           <p>My name is Hector, I'm a junior full-stack developer!</p>
           <p>Let me show my lastest interests and projects</p>
         </div>
